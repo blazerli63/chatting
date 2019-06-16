@@ -1,0 +1,65 @@
+@charset "utf-8";
+body,div,ul,li,ol,h1,h2,h3,h4,h5,h6,input,textarea,select,p,dl,dt,dd,a,img,button,form,table,th,tr,td,tbody,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
+    margin:0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font:12px/1.5 'Microsoft YaHei','宋体',Tahoma,Arial,sans-serif;
+    color: #555;
+    background-color: #E7E7E7;
+}
+
+em,li{
+    list-style-type: none;
+}
+
+strong{
+    font-weight: normal;
+}
+
+.clearfix:after{
+    content:"";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear:both;
+}
+
+.index_header{
+    width: 98%;
+    margin: 0 auto;
+    height: 9rem;
+    //line-height: 4.4rem;
+    
+    background: #fff;
+
+    margin-top: 1rem;
+
+    display: flex;
+
+    border-radius: .5rem;
+
+    .hlist{
+        flex: 1;
+        text-align: center;
+        padding-top: .5rem;
+        border-right: 1px solid #eee;
+        img{
+            width: 6rem;
+            height: 6rem;
+            margin: 0 auto;
+        }
+
+        &:last-child{
+            border-right: none;
+        }
+    }
+}
+.row{
+    position:relative;
+}
